@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Customer Dashboard</h1>
+        </header>
+        <div class="dashboard">
+            <h2>Payment Options</h2>
+            <form id="paymentForm">
+                <label for="paymentMethod">Payment Method:</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="" disabled selected>Select a method</option>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="debitCard">Debit Card</option>
+                    <option value="bankTransfer">Bank Transfer</option>
+                </select>
+                <button type="submit">Pay</button>
+            </form>
+            <h2>Repayment Schedule</h2>
+            <div id="repaymentSchedule">
+                <p>View your repayment schedule here.</p>
+            </div>
+            <h2>Loan Closure</h2>
+            <form id="loanClosureForm">
+                <button type="submit">Close Loan</button>
+            </form>
+            <h2>Repayment Chart</h2>
+            <div id="repaymentChart">
+                <!-- Placeholder for circular chart -->
+                <p>Repayment Chart will be displayed here.</p>
+            </div>
+        </div>
+        <img src="file:///Users/abhirambikki/Desktop/Screenshot%202024-09-02%20at%203.25.25%E2%80%AFAM.png" alt="Corner Image" class="corner-image">
+        <div class="ai-features">
+            <p>AI Features: Advanced Risk Assessment, Automated Document Processing, Real-time Fraud Detection. Stay tuned!</p>
+        </div>
+    </div>
+    <script src="customer.js"></script>
+</body>
+
+</html>

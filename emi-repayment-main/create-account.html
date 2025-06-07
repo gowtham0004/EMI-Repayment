@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Create Account</h1>
+        </header>
+        <div class="create-account-form-container">
+            <form id="createAccountForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="newEmail">Email:</label>
+                <input type="email" id="newEmail" name="email" placeholder="example@gmail.com" required>
+
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <button type="submit" class="animated-button">Create Account</button>
+                <p id="createAccountMessage"></p>
+            </form>
+        </div>
+        <img src="file:///Users/abhirambikki/Desktop/Screenshot%202024-09-02%20at%203.25.25%E2%80%AFAM.png" alt="Corner Image" class="corner-image">
+        <div class="ai-features">
+            <p>AI Features: Advanced Risk Assessment, Automated Document Processing, Real-time Fraud Detection. Stay tuned!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
